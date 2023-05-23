@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+ 
+}
+h2{
+    font-size: 3rem;
+}
+
+.bottom{
+    display: flex;
+    padding: 10px;
+    justify-content:space-evenly ;
+}
+.click{
+    background-color: #9DD6DF;
+    color: #fff;
+    padding: 2rem;
+    margin-right: 4rem;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+.reset{
+    background-color: #FF1818;
+    color: white;   
+    padding: 2rem;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
